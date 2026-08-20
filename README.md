@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://pub.dev/packages/slidex"><img src="https://img.shields.io/pub/v/slidex.svg" alt="pub package" /></a>
+  <a href="https://imCoderAditya.github.io/SlideX/"><img src="https://img.shields.io/badge/Documentation-Live%20Docs%20%26%20Demo-6366F1.svg" alt="Live Docs & Demo" /></a>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-120%20FPS-6366F1.svg" alt="120 FPS" /></a>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Web%20%7C%20Desktop-blue.svg" alt="Platform Support" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
@@ -22,6 +23,8 @@
 **SlideX** is the premier, high-performance **120 FPS Motion Engine & Carousel Framework** for Flutter.
 
 Instead of installing 10 different packages for sliders, story viewers, product galleries, card swipers, and onboarding pages — **SlideX combines everything into one unified, zero-dependency package** with 100% granular color and style control!
+
+📚 **Live Documentation & Interactive Web Demo**: [https://imCoderAditya.github.io/SlideX/](https://imCoderAditya.github.io/SlideX/)
 
 ---
 
