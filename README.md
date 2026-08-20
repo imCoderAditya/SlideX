@@ -14,11 +14,7 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://imCoderAditya.github.io/SlideX/">
-    <img src="assets/slidex_10_templates.jpg" width="100%" alt="SlideX 10 Templates Showcase Grid - Click to Open Live Website" />
-  </a>
-</p>
+
 
 ---
 
@@ -31,6 +27,12 @@ Instead of installing 10 different packages for sliders, story viewers, product 
 🌐 **Live Website**: [SlideX Docs](https://imCoderAditya.github.io/SlideX/)
 
 ---
+
+<p align="center">
+  <a href="https://imCoderAditya.github.io/SlideX/">
+    <img src="assets/slidex_10_templates.jpg" width="100%" alt="SlideX 10 Templates Showcase Grid - Click to Open Live Website" />
+  </a>
+</p>
 
 ## 🔥 Features at a Glance
 
