@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SlideX — 120 FPS Motion Engine & Carousel Framework for Flutter</title>
-  <meta name="description" content="SlideX is a high-performance 120 FPS Motion Engine & Carousel framework for Flutter featuring 27+ 2D/3D effects, Tinder Card Swiper, Instagram Story Viewer, E-Commerce Product Gallery, 360 Product Spinner, and App Onboarding.">
-  
+  <meta name="description"
+    content="SlideX is a high-performance 120 FPS Motion Engine & Carousel framework for Flutter featuring 27+ 2D/3D effects, Tinder Card Swiper, Instagram Story Viewer, E-Commerce Product Gallery, 360 Product Spinner, and App Onboarding.">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+
   <!-- Prism CSS Syntax Highlighting -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
 
@@ -44,7 +48,11 @@
     }
 
     /* Typography */
-    h1, h2, h3, h4, .brand-font {
+    h1,
+    h2,
+    h3,
+    h4,
+    .brand-font {
       font-family: 'Outfit', sans-serif;
     }
 
@@ -207,6 +215,7 @@
       margin-bottom: 20px;
       background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #94a3b8 100%);
       -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
@@ -321,7 +330,8 @@
       transition: all 0.2s;
     }
 
-    .sidebar-menu a:hover, .sidebar-menu a.active {
+    .sidebar-menu a:hover,
+    .sidebar-menu a.active {
       background: rgba(99, 102, 241, 0.15);
       color: #fff;
       font-weight: 600;
@@ -405,7 +415,8 @@
       font-size: 14px;
     }
 
-    .api-table th, .api-table td {
+    .api-table th,
+    .api-table td {
       padding: 14px 18px;
       text-align: left;
       border-bottom: 1px solid var(--border-color);
@@ -436,12 +447,21 @@
 
     /* Responsive */
     @media (max-width: 768px) {
-      .hero h1 { font-size: 38px; }
-      .doc-layout { grid-template-columns: 1fr; }
-      .sidebar { display: none; }
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .doc-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        display: none;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <!-- Navbar -->
@@ -472,8 +492,9 @@
           <span>⚡ 120 FPS Motion Engine for Flutter</span>
         </div>
         <h1>Next-Generation Motion &amp; Carousel Engine</h1>
-        <p>Combine Sliders, Swipers, Carousels, Tinder Card Stack, Instagram Story Viewer, Product Media Gallery, 360° Product Spinner, and 27+ 3D/2D Effects into one unified Flutter package.</p>
-        
+        <p>Combine Sliders, Swipers, Carousels, Tinder Card Stack, Instagram Story Viewer, Product Media Gallery, 360°
+          Product Spinner, and 27+ 3D/2D Effects into one unified Flutter package.</p>
+
         <div class="hero-cta">
           <a href="#docs" class="btn btn-primary" id="btn-get-started">
             <span>Get Started &rarr;</span>
@@ -500,19 +521,22 @@
           <div class="glass-card feature-card">
             <div class="feature-icon">⚡</div>
             <h3>120 FPS Hardware Acceleration</h3>
-            <p>GPU <code>RepaintBoundary</code> layer isolation and offstage pre-rendering ensure zero frame drops during high-speed 3D matrix transforms.</p>
+            <p>GPU <code>RepaintBoundary</code> layer isolation and offstage pre-rendering ensure zero frame drops
+              during high-speed 3D matrix transforms.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🎴</div>
             <h3>Tinder-Style Card Swiper</h3>
-            <p>Gesture drag velocity, rotation matrix tilt, green LIKE / red NOPE badges, and programmatic <code>SlideXCardSwiperController</code> with rewind support.</p>
+            <p>Gesture drag velocity, rotation matrix tilt, green LIKE / red NOPE badges, and programmatic
+              <code>SlideXCardSwiperController</code> with rewind support.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🚀</div>
             <h3>App Onboarding Slider</h3>
-            <p>Built-in 3D illustration cards, Skip, Next &amp; Get Started CTA buttons with active glowing shadows and customizable typography.</p>
+            <p>Built-in 3D illustration cards, Skip, Next &amp; Get Started CTA buttons with active glowing shadows and
+              customizable typography.</p>
           </div>
 
           <div class="glass-card feature-card">
@@ -530,7 +554,8 @@
           <div class="glass-card feature-card">
             <div class="feature-icon">🛍️</div>
             <h3>Product Gallery &amp; 360° Spinner</h3>
-            <p>Thumbnail strip navigation, full-screen lightbox zoom modal, and 360° interactive product rotation spinner.</p>
+            <p>Thumbnail strip navigation, full-screen lightbox zoom modal, and 360° interactive product rotation
+              spinner.</p>
           </div>
         </div>
       </div>
@@ -794,7 +819,8 @@ SlideX.cardSwipe(
               <tr>
                 <td><code>indicatorType</code></td>
                 <td><code>expandingDot</code></td>
-                <td>Indicator style (<code>expandingDot</code>, <code>dot</code>, <code>number</code>, <code>progressLine</code>, <code>none</code>)</td>
+                <td>Indicator style (<code>expandingDot</code>, <code>dot</code>, <code>number</code>,
+                  <code>progressLine</code>, <code>none</code>)</td>
               </tr>
               <tr>
                 <td><code>indicatorActiveColor</code></td>
@@ -833,4 +859,5 @@ SlideX.cardSwipe(
     }
   </script>
 </body>
+
 </html>
