@@ -1,10 +1,6 @@
 # SlideX 🚀
 
 <p align="center">
-  <img src="assets/slidex_banner.jpg" width="100%" alt="SlideX Motion Engine Banner" />
-</p>
-
-<p align="center">
   <a href="https://pub.dev/packages/slidex"><img src="https://img.shields.io/pub/v/slidex.svg" alt="pub package" /></a>
   <a href="https://imCoderAditya.github.io/SlideX/"><img src="https://img.shields.io/badge/Documentation-Live%20Docs%20%26%20Demo-6366F1.svg" alt="Live Docs & Demo" /></a>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-120%20FPS-6366F1.svg" alt="120 FPS" /></a>
@@ -13,7 +9,15 @@
 </p>
 
 <p align="center">
-  <img src="assets/slidex_10_templates.jpg" width="100%" alt="SlideX 10 Templates Showcase Grid" />
+  <a href="https://imCoderAditya.github.io/SlideX/">
+    <img src="assets/slidex_banner.jpg" width="100%" alt="SlideX Motion Engine Banner - Click to Open Live Website" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://imCoderAditya.github.io/SlideX/">
+    <img src="assets/slidex_10_templates.jpg" width="100%" alt="SlideX 10 Templates Showcase Grid - Click to Open Live Website" />
+  </a>
 </p>
 
 ---
@@ -24,7 +28,7 @@
 
 Instead of installing 10 different packages for sliders, story viewers, product galleries, card swipers, and onboarding pages — **SlideX combines everything into one unified, zero-dependency package** with 100% granular color and style control!
 
-📚 **Documentation**: [SlideX Docs](https://imCoderAditya.github.io/SlideX/)
+🌐 **Live Website**: [SlideX Docs](https://imCoderAditya.github.io/SlideX/)
 
 ---
 
