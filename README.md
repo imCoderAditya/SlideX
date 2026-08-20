@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <img src="assets/slidex_10_templates.jpg" width="100%" alt="SlideX 10 Templates Showcase Grid" />
-</p>
-
-<p align="center">
   <a href="https://pub.dev/packages/slidex"><img src="https://img.shields.io/pub/v/slidex.svg" alt="pub package" /></a>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-120%20FPS-6366F1.svg" alt="120 FPS" /></a>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Web%20%7C%20Desktop-blue.svg" alt="Platform Support" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/slidex_10_templates.jpg" width="100%" alt="SlideX 10 Templates Showcase Grid" />
 </p>
 
 ---
