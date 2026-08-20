@@ -1,7 +1,7 @@
 name: slidex
 description: "A high-performance Motion Engine & Carousel framework for Flutter with 27+ 2D/3D effects, Story viewer, Product gallery, and 100+ templates."
-version: 0.0.1
-homepage: https://github.com/aditya/slidex
+homepage: https://github.com/imCoderAditya/SlideX
+documentation: https://imCoderAditya.github.io/SlideX/
 
 environment:
   sdk: ^3.13.0
