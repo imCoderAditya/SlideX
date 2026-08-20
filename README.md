@@ -24,7 +24,7 @@
 
 Instead of installing 10 different packages for sliders, story viewers, product galleries, card swipers, and onboarding pages — **SlideX combines everything into one unified, zero-dependency package** with 100% granular color and style control!
 
-📚 **Live Documentation & Interactive Web Demo**: [https://imCoderAditya.github.io/SlideX/](https://imCoderAditya.github.io/SlideX/)
+📚 **Documentation**: [SlideX Docs](https://imCoderAditya.github.io/SlideX/)
 
 ---
 
