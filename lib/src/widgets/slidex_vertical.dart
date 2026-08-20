@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../core/slidex_config.dart';
 import '../core/slidex_controller.dart';
 import '../core/slidex_enums.dart';
