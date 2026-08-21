@@ -6,7 +6,7 @@ export 'src/core/slidex_enums.dart';
 export 'src/core/slidex_config.dart';
 export 'src/core/slidex_controller.dart';
 
-// Effects
+// Effects-
 export 'src/effects/slidex_effect.dart';
 export 'src/effects/2d/slidex_2d_effects.dart';
 export 'src/effects/3d/slidex_3d_effects.dart';
