@@ -486,10 +486,65 @@
       font-size: 14px;
     }
 
-    /* Responsive */
+    /* Complete Responsive Media Queries */
+    @media (max-width: 1024px) {
+      .container {
+        padding: 0 24px;
+      }
+
+      .doc-layout {
+        grid-template-columns: 240px 1fr;
+        gap: 20px;
+      }
+    }
+
     @media (max-width: 768px) {
+      .nav-wrapper {
+        flex-wrap: wrap;
+        gap: 14px;
+        justify-content: space-between;
+        padding: 12px 16px;
+      }
+
+      .nav-links {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 6px;
+        gap: 16px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .nav-links li {
+        white-space: nowrap;
+      }
+
+      #btn-github-nav {
+        display: none;
+      }
+
+      .hero {
+        padding: 60px 0 40px;
+      }
+
       .hero h1 {
-        font-size: 38px;
+        font-size: clamp(30px, 7vw, 42px);
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .hero-cta {
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto 36px;
+      }
+
+      .hero-cta .btn {
+        width: 100%;
+        justify-content: center;
       }
 
       .doc-layout {
@@ -498,6 +553,54 @@
 
       .sidebar {
         display: none;
+      }
+
+      .section-title h2 {
+        font-size: 28px;
+      }
+
+      .features-grid,
+      .feature-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .template-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 16px;
+      }
+
+      .hero h1 {
+        font-size: 26px;
+      }
+
+      .badge {
+        font-size: 11px;
+        padding: 4px 12px;
+      }
+
+      .feature-card {
+        padding: 24px;
+      }
+
+      .template-card {
+        padding: 14px;
+      }
+
+      .code-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .copy-btn {
+        align-self: flex-end;
       }
     }
   </style>
@@ -545,8 +648,10 @@
           </a>
         </div>
 
-        <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/slidex_banner.jpg" alt="SlideX Banner" class="hero-banner">
-        <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/slidex_10_templates.jpg" alt="SlideX 10 Templates Grid" class="hero-banner">
+        <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/slidex_banner.jpg"
+          alt="SlideX Banner" class="hero-banner">
+        <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/slidex_10_templates.jpg"
+          alt="SlideX 10 Templates Grid" class="hero-banner">
       </div>
     </section>
 
@@ -562,19 +667,22 @@
           <div class="glass-card feature-card">
             <div class="feature-icon">⚡</div>
             <h3>120 FPS Hardware Acceleration</h3>
-            <p>GPU <code>RepaintBoundary</code> layer isolation and offstage pre-rendering ensure zero frame drops during high-speed 3D matrix transforms.</p>
+            <p>GPU <code>RepaintBoundary</code> layer isolation and offstage pre-rendering ensure zero frame drops
+              during high-speed 3D matrix transforms.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🎴</div>
             <h3>Tinder-Style Card Swiper</h3>
-            <p>Gesture drag velocity, rotation matrix tilt, green LIKE / red NOPE badges, and programmatic <code>SlideXCardSwiperController</code> with rewind support.</p>
+            <p>Gesture drag velocity, rotation matrix tilt, green LIKE / red NOPE badges, and programmatic
+              <code>SlideXCardSwiperController</code> with rewind support.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🚀</div>
             <h3>App Onboarding Slider</h3>
-            <p>Built-in 3D illustration cards, Skip, Next &amp; Get Started CTA buttons with active glowing shadows and customizable typography.</p>
+            <p>Built-in 3D illustration cards, Skip, Next &amp; Get Started CTA buttons with active glowing shadows and
+              customizable typography.</p>
           </div>
 
           <div class="glass-card feature-card">
@@ -592,19 +700,22 @@
           <div class="glass-card feature-card">
             <div class="feature-icon">🛍️</div>
             <h3>Product Gallery &amp; 360° Spinner</h3>
-            <p>Thumbnail strip navigation, full-screen lightbox zoom modal, and 360° interactive product rotation spinner.</p>
+            <p>Thumbnail strip navigation, full-screen lightbox zoom modal, and 360° interactive product rotation
+              spinner.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🎭</div>
             <h3>27+ 2D &amp; 3D Transitions</h3>
-            <p>Coverflow 3D, Cube 3D, Sphere 3D, Wheel 3D, Cylinder 3D, Tunnel 3D, Helix 3D, Stack 3D, Parallax, Zoom, Scale, Blur, Liquid, Curtain, Morph, and Elastic.</p>
+            <p>Coverflow 3D, Cube 3D, Sphere 3D, Wheel 3D, Cylinder 3D, Tunnel 3D, Helix 3D, Stack 3D, Parallax, Zoom,
+              Scale, Blur, Liquid, Curtain, Morph, and Elastic.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🖱️</div>
             <h3>Web &amp; Desktop Interactive Controls</h3>
-            <p>Native mouse wheel scrolling, trackpad gestures, keyboard arrow key navigation, and <code>pauseOnHover</code> auto-play control.</p>
+            <p>Native mouse wheel scrolling, trackpad gestures, keyboard arrow key navigation, and
+              <code>pauseOnHover</code> auto-play control.</p>
           </div>
         </div>
       </div>
@@ -620,35 +731,44 @@
 
         <div class="template-grid">
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/01_coverflow.jpg" alt="CoverFlow 3D">
+            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/01_coverflow.jpg"
+              alt="CoverFlow 3D">
             <h4>Template 01: CoverFlow 3D</h4>
           </div>
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/02_cube3d.jpg" alt="Cube 3D">
+            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/02_cube3d.jpg"
+              alt="Cube 3D">
             <h4>Template 02: Cube 3D</h4>
           </div>
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/03_netflix.jpg" alt="Netflix Carousel">
+            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/03_netflix.jpg"
+              alt="Netflix Carousel">
             <h4>Template 03: Netflix Carousel</h4>
           </div>
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/04_instagram_story.jpg" alt="Instagram Story">
+            <img
+              src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/04_instagram_story.jpg"
+              alt="Instagram Story">
             <h4>Template 04: Instagram Story</h4>
           </div>
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/05_tinder.jpg" alt="Tinder Card Stack">
+            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/05_tinder.jpg"
+              alt="Tinder Card Stack">
             <h4>Template 05: Tinder Card Stack</h4>
           </div>
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/06_ecommerce.jpg" alt="E-Commerce Gallery">
+            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/06_ecommerce.jpg"
+              alt="E-Commerce Gallery">
             <h4>Template 06: Product Gallery</h4>
           </div>
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/07_sphere3d.jpg" alt="Sphere 3D Orbit">
+            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/07_sphere3d.jpg"
+              alt="Sphere 3D Orbit">
             <h4>Template 07: Sphere 3D Orbit</h4>
           </div>
           <div class="glass-card template-card">
-            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/08_glassmorphism.jpg" alt="Glassmorphism Card">
+            <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/showcase/08_glassmorphism.jpg"
+              alt="Glassmorphism Card">
             <h4>Template 08: Glassmorphism</h4>
           </div>
         </div>
@@ -869,7 +989,8 @@ SlideX.cardSwipe(
                 <td><code>indicatorType</code></td>
                 <td><code>expandingDot</code></td>
                 <td>Indicator style (<code>expandingDot</code>, <code>dot</code>, <code>number</code>,
-                  <code>progressLine</code>, <code>none</code>)</td>
+                  <code>progressLine</code>, <code>none</code>)
+                </td>
               </tr>
               <tr>
                 <td><code>indicatorActiveColor</code></td>
