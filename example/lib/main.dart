@@ -1,3 +1,4 @@
+/// SlideX Showcase App — 120 FPS Motion Engine & Carousel Framework for Flutter.
 import 'package:flutter/material.dart';
 import 'package:slidex/slidex.dart';
 
