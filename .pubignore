@@ -1,0 +1,14 @@
+# Files and directories to exclude from published pub.dev package
+doc/
+.github/
+build/
+.dart_tool/
+.idea/
+slidex.iml
+example/build/
+example/.dart_tool/
+example/ios/
+example/android/
+example/macos/
+example/linux/
+example/windows/
