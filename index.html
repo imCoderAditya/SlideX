@@ -264,7 +264,8 @@
     }
 
     /* Features Grid */
-    .features-grid {
+    .features-grid,
+    .feature-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 28px;
@@ -542,7 +543,9 @@
           <a href="https://pub.dev/packages/slidex" target="_blank" class="btn btn-secondary" id="btn-pub-dev">
             <span>pub.dev Package</span>
           </a>
-                <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/slidex_banner.jpg" alt="SlideX Banner" class="hero-banner">
+        </div>
+
+        <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/slidex_banner.jpg" alt="SlideX Banner" class="hero-banner">
         <img src="https://raw.githubusercontent.com/imCoderAditya/SlideX/main/assets/slidex_10_templates.jpg" alt="SlideX 10 Templates Grid" class="hero-banner">
       </div>
     </section>
@@ -555,26 +558,23 @@
           <p>Zero external dependencies. Pure Flutter canvas hardware-accelerated performance.</p>
         </div>
 
-        <div class="feature-grid">
+        <div class="features-grid">
           <div class="glass-card feature-card">
             <div class="feature-icon">⚡</div>
             <h3>120 FPS Hardware Acceleration</h3>
-            <p>GPU <code>RepaintBoundary</code> layer isolation and offstage pre-rendering ensure zero frame drops
-              during high-speed 3D matrix transforms.</p>
+            <p>GPU <code>RepaintBoundary</code> layer isolation and offstage pre-rendering ensure zero frame drops during high-speed 3D matrix transforms.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🎴</div>
             <h3>Tinder-Style Card Swiper</h3>
-            <p>Gesture drag velocity, rotation matrix tilt, green LIKE / red NOPE badges, and programmatic
-              <code>SlideXCardSwiperController</code> with rewind support.</p>
+            <p>Gesture drag velocity, rotation matrix tilt, green LIKE / red NOPE badges, and programmatic <code>SlideXCardSwiperController</code> with rewind support.</p>
           </div>
 
           <div class="glass-card feature-card">
             <div class="feature-icon">🚀</div>
             <h3>App Onboarding Slider</h3>
-            <p>Built-in 3D illustration cards, Skip, Next &amp; Get Started CTA buttons with active glowing shadows and
-              customizable typography.</p>
+            <p>Built-in 3D illustration cards, Skip, Next &amp; Get Started CTA buttons with active glowing shadows and customizable typography.</p>
           </div>
 
           <div class="glass-card feature-card">
@@ -592,8 +592,19 @@
           <div class="glass-card feature-card">
             <div class="feature-icon">🛍️</div>
             <h3>Product Gallery &amp; 360° Spinner</h3>
-            <p>Thumbnail strip navigation, full-screen lightbox zoom modal, and 360° interactive product rotation
-              spinner.</p>
+            <p>Thumbnail strip navigation, full-screen lightbox zoom modal, and 360° interactive product rotation spinner.</p>
+          </div>
+
+          <div class="glass-card feature-card">
+            <div class="feature-icon">🎭</div>
+            <h3>27+ 2D &amp; 3D Transitions</h3>
+            <p>Coverflow 3D, Cube 3D, Sphere 3D, Wheel 3D, Cylinder 3D, Tunnel 3D, Helix 3D, Stack 3D, Parallax, Zoom, Scale, Blur, Liquid, Curtain, Morph, and Elastic.</p>
+          </div>
+
+          <div class="glass-card feature-card">
+            <div class="feature-icon">🖱️</div>
+            <h3>Web &amp; Desktop Interactive Controls</h3>
+            <p>Native mouse wheel scrolling, trackpad gestures, keyboard arrow key navigation, and <code>pauseOnHover</code> auto-play control.</p>
           </div>
         </div>
       </div>
